@@ -1,0 +1,64 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 58,
+  "boxShadow": "none",
+  "defaultOptionValue": "[\n  \"GREEN\",\n  \"RED\"\n]",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "3shzro0t6a",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Select Products",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 49,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 42,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "label",
+  "originalBottomRow": 58,
+  "originalTopRow": 51,
+  "parentColumnSpace": 9.125,
+  "parentId": "jgp6k4ezx6",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option(s)",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "serverSideFiltering": false,
+  "sourceData": "{{fetch_product_catalog.data.map((products)=>{\n\treturn{\n\t\tlabel:products.Items,\n\t\tvalue: products.Id\n\t}\n})}}",
+  "topRow": 51,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "xain20kf2y",
+  "widgetName": "productmultiselect"
+}

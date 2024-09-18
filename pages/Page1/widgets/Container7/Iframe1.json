@@ -1,0 +1,44 @@
+{
+  "animateLoading": true,
+  "borderOpacity": 100,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 81,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "source"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ehuunyh2s7",
+  "leftColumn": 10,
+  "mobileBottomRow": 68,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 49,
+  "mobileTopRow": 36,
+  "needsErrorInfo": false,
+  "originalBottomRow": 86,
+  "originalTopRow": 41,
+  "parentColumnSpace": 18.025634765625,
+  "parentId": "07lp1wyvh1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 49,
+  "source": "https://www.google.com/maps/embed/v1/directions?origin={{delivery_executive.selectedRow.Location}}&destination={{delivery_executive.selectedRow.cust_location}}&key=AIzaSyAEdyv6T7s099P5tVNPXcJ59HDH9d0L_ek",
+  "topRow": 36,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "cyebnwu6v6",
+  "widgetName": "Iframe1"
+}
